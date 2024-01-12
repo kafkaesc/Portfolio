@@ -1,5 +1,6 @@
 import A from '@/elements/A';
 import Jhumbotron from '@/components/Jhumbotron';
+import Portfolio from '@/components/Portfolio';
 
 export default function Home() {
 	return (
@@ -10,6 +11,7 @@ export default function Home() {
 					GitHub
 				</A>
 			</div>
+			<Portfolio />
 		</main>
 	);
 }
