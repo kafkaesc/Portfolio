@@ -24,7 +24,7 @@ const portfolioProjects = [
 		description:
 			'Text your friend Ishmael, and learn a WCAG feature in the meantime',
 		imgAlt: '',
-		imgSrc: '/images/portfolio/catsummoner.png',
+		imgSrc: '/images/portfolio/callmeishmael.png',
 		name: 'Call-Me-Ishmael',
 		repoUrl: 'https://github.com/kafkaesc/Call-Me-Ishmael',
 		url: 'https://www.call-me-ishmael.xyz/',
