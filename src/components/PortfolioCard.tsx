@@ -21,10 +21,10 @@ export default function PortfolioCard({
 				{imgSrc && (
 					<Image
 						alt="Alt text, update this"
-						className="object-cover"
-						height={800}
+						className="object-cover h-32"
+						height={512}
 						src={imgSrc}
-						width={800}
+						width={512}
 					/>
 				)}
 			</div>
