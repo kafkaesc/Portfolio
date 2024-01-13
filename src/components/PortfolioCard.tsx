@@ -17,20 +17,22 @@ export default function PortfolioCard({
 }: PortfolioCardProps) {
 	return (
 		<div className="p-2 border border-2">
-			<div className="h-32 overflow-hidden border border-2">
-				{imgSrc && (
-					<Image
-						alt="Alt text, update this"
-						className="object-cover h-32"
-						height={512}
-						src={imgSrc}
-						width={512}
-					/>
-				)}
-			</div>
-			<h3 className="text-xl">
+			<A href={url} rel="noreferrer" target="_blank">
+				<div className="h-32 overflow-hidden border border-2">
+					{imgSrc && (
+						<Image
+							alt="Alt text, update this"
+							className="object-cover h-32"
+							height={512}
+							src={imgSrc}
+							width={512}
+						/>
+					)}
+				</div>
+			</A>
+			<h3 className="text-xl font-bold">
 				<A href={url} rel="noreferrer" target="_blank">
-					{name ? name : 'Project Title'}
+					{name}
 				</A>
 			</h3>
 			{/*<p>
