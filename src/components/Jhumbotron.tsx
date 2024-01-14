@@ -1,4 +1,5 @@
-import JhumbotronHeadshot from './JhumbotronHeadshot';
+import JhumbotronHeadshot from '@/components/JhumbotronHeadshot';
+import Describer from '@/components/Describer';
 
 export default function Jhumbotron() {
 	return (
@@ -8,7 +9,9 @@ export default function Jhumbotron() {
 				<div className="font-bold text-center md:text-left md:pl-8 md:pt-16">
 					<h1 className="text-5xl sm:text-6xl">Jared Hettinger</h1>
 					<h2 className="text-3xl sm:text-4xl">Software Engineer</h2>
-					<p className="text-xl sm:text-2xl">Freckled Latino</p>
+					<p className="text-xl sm:text-2xl">
+						<Describer />
+					</p>
 				</div>
 			</div>
 		</div>
