@@ -45,7 +45,6 @@ export default function PortfolioCard({
 					<PortfolioCodeLink name={name} url={repoUrl} />
 				</div>
 			</div>
-
 			{description && <p>{description}</p>}
 		</div>
 	);
