@@ -12,11 +12,9 @@ const config: Config = {
 			keyframes: {
 				'describer-fade': {
 					from: { opacity: '0.01' },
-					'10%': { opacity: '0.01' },
-					'20%': { transform: 'translateX(+32px)', opacity: '0.01' },
-					'30%': { opacity: '1.0' },
-					'35%': { transform: 'translateX(0px)' },
-					'40%': { opacity: '1.0' },
+					'8%': { transform: 'translateX(+32px)', opacity: '0.01' },
+					'25%': { opacity: '1.0' },
+					'33.33%': { transform: 'translateX(0px)' },
 					'95%': { opacity: '1.0' },
 					to: { opacity: '0.01' },
 				},
