@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import A from '@/elements/A';
+import PortfolioCodeLink from '@/components/PortfolioCodeLink';
 
 interface PortfolioCardProps {
 	description?: string;
 	imgAlt: string;
 	imgSrc: string;
 	name: string;
+	repoUrl: string;
 	url: string;
 }
 
@@ -13,6 +15,7 @@ export default function PortfolioCard({
 	description,
 	imgSrc,
 	name,
+	repoUrl,
 	url,
 }: PortfolioCardProps) {
 	return (
@@ -30,14 +33,19 @@ export default function PortfolioCard({
 					)}
 				</div>
 			</A>
-			<h3 className="text-xl font-bold">
-				<A href={url} rel="noreferrer" target="_blank">
-					{name}
-				</A>
-			</h3>
-			{/*<p>
-				<code className="text-xs px-1 rounded py-0.5 bg-gray-200">{`<project code>`}</code>
-			</p>*/}
+			<div className="flex">
+				<div className="flex-auto">
+					<h3 className="text-xl font-bold">
+						<A href={url} rel="noreferrer" target="_blank">
+							{name}
+						</A>
+					</h3>
+				</div>
+				<div className="flex-none">
+					<PortfolioCodeLink name={name} url={repoUrl} />
+				</div>
+			</div>
+
 			{description && <p>{description}</p>}
 		</div>
 	);
