@@ -10,7 +10,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			keyframes: {
-				'describer-fade': {
+				'describer-slide-in': {
 					from: { opacity: '0.01' },
 					'8%': { transform: 'translateX(+32px)', opacity: '0.01' },
 					'25%': { opacity: '1.0' },
@@ -32,7 +32,7 @@ const config: Config = {
 				},
 			},
 			animation: {
-				'describer-fade': 'describer-fade 5000ms infinite',
+				'describer-slide-in': 'describer-slide-in 5000ms infinite',
 				'fade-in': 'fade-in 1s forwards',
 				'fade-in-500ms': 'fade-in 500ms forwards',
 				'fade-in-750ms': 'fade-in 750ms forwards',

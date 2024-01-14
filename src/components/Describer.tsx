@@ -18,6 +18,6 @@ export default function Describer() {
 	}, []);
 
 	return (
-		<span className="inline-block animate-describer-fade">{describer}</span>
+		<span className="inline-block animate-describer-slide-in">{describer}</span>
 	);
 }
