@@ -35,7 +35,7 @@ const portfolioProjects = [
 
 export default function Portfolio() {
 	return (
-		<div className="max-w-4xl mx-auto text-center">
+		<>
 			{portfolioProjects &&
 				portfolioProjects.map((pp) => {
 					return (
@@ -44,6 +44,6 @@ export default function Portfolio() {
 						</TwoToThreeColumn>
 					);
 				})}
-		</div>
+		</>
 	);
 }
