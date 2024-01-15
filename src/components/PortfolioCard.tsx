@@ -19,13 +19,13 @@ export default function PortfolioCard({
 	url,
 }: PortfolioCardProps) {
 	return (
-		<div className="p-2 border border-2">
+		<div className="p-2 border border-2 text-left">
 			<A href={url} rel="noreferrer" target="_blank">
 				<div className="h-32 overflow-hidden border border-2">
 					{imgSrc && (
 						<Image
 							alt="Alt text, update this"
-							className="object-cover h-32"
+							className="object-cover h-32 hover:animate-zoom-to-112"
 							height={512}
 							src={imgSrc}
 							width={512}
