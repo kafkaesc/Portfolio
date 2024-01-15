@@ -39,7 +39,7 @@ export default function Portfolio() {
 			{portfolioProjects &&
 				portfolioProjects.map((pp) => {
 					return (
-						<TwoToThreeColumn key={pp.name} className="p-1 align-top">
+						<TwoToThreeColumn key={pp.name} className="px-1 pb-1 align-top">
 							<PortfolioCard {...pp} />
 						</TwoToThreeColumn>
 					);
