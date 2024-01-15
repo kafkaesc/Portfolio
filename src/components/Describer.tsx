@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react';
 import useDescribers from '@/hooks/useDescribers';
 
-const isChrome = navigator.userAgent.indexOf('Chrome') > -1;
-const isSafari = !isChrome && navigator.userAgent.indexOf('Safari') > -1;
+const isChrome = navigator?.userAgent.indexOf('Chrome') > -1;
+const isSafari = !isChrome && navigator?.userAgent.indexOf('Safari') > -1;
 
 export default function Describer() {
 	const [describer, setDescriber] = useState('');
