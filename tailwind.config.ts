@@ -30,6 +30,14 @@ const config: Config = {
 					from: { transform: 'translateY(0)' },
 					to: { transform: 'translateY(-0.5em)' },
 				},
+				'zoom-from-112': {
+					from: { transform: 'scale(1.12)' },
+					to: { transform: 'scale(1.0)' },
+				},
+				'zoom-to-112': {
+					from: { transform: 'scale(1.0)' },
+					to: { transform: 'scale(1.12)' },
+				},
 			},
 			animation: {
 				'describer-slide-in': 'describer-slide-in 5000ms infinite',
@@ -45,6 +53,8 @@ const config: Config = {
 				'float-up-2': 'float-up 2s ease-in-out forwards',
 				'float-up-3': 'float-up 3s ease-in-out forwards',
 				'float-up-4': 'float-up 4s ease-in-out forwards',
+				'zoom-from-112': 'zoom-from-112 1s ease-in-out forwards',
+				'zoom-to-112': 'zoom-to-112 1s ease-in-out forwards',
 			},
 		},
 	},
