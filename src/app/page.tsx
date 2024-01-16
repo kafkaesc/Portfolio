@@ -1,4 +1,3 @@
-import A from '@/elements/A';
 import H2 from '@/elements/H2';
 import Jhumbotron from '@/components/Jhumbotron';
 import Mentoring from '@/components/Mentoring';
@@ -8,11 +7,8 @@ import ToolsListPills from '@/components/ToolsListPills';
 export default function Home() {
 	return (
 		<main>
-			<Jhumbotron />
-			<div className="text-center">
-				<A href="https://github.com/kafkaesc" rel="noreferrer" target="_blank">
-					GitHub
-				</A>
+			<div className="mb-2">
+				<Jhumbotron />
 			</div>
 			<H2 className="max-w-2xl px-2 mx-auto md:px-0">Personal Projects</H2>
 			<div className="max-w-4xl mx-auto mb-4">
