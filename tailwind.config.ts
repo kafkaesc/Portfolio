@@ -9,10 +9,17 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				black: '#000000',
+				'jh-black': '#121212',
+				'jh-white': '#eeeeee',
+				highlight: '#3feee6',
+				white: '#ffffff',
+			},
 			keyframes: {
 				'describer-slide-in': {
 					from: { opacity: '0.01' },
-					'8%': { transform: 'translateX(+32px)', opacity: '0.01' },
+					'10%': { transform: 'translateX(+32px)', opacity: '0.01' },
 					'25%': { opacity: '1.0' },
 					'33.33%': { transform: 'translateX(0px)' },
 					'90%': { opacity: '1.0' },
