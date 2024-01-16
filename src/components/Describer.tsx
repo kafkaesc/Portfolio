@@ -30,7 +30,10 @@ export default function Describer() {
 	}, []);
 
 	return (
-		<span id="jh_describer" className="inline-block animate-describer-slide-in">
+		<span
+			id="jh_describer"
+			className="inline-block pr-2 animate-describer-slide-in"
+		>
 			{describer}
 		</span>
 	);
