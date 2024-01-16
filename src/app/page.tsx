@@ -1,3 +1,5 @@
+import { Metadata } from 'next';
+
 import H2 from '@/elements/H2';
 import Hr from '@/elements/Hr';
 import Jhumbotron from '@/components/Jhumbotron';
@@ -5,6 +7,12 @@ import Mentoring from '@/components/Mentoring';
 import Portfolio from '@/components/Portfolio';
 import SocialLinks from '@/components/SocialLinks';
 import ToolsListPills from '@/components/ToolsListPills';
+
+export const metadata: Metadata = {
+	title: 'Jared Hettinger - Software Engineer',
+	description:
+		"Hi there, I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects",
+};
 
 export default function Home() {
 	return (
