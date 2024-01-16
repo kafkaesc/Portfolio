@@ -3,15 +3,14 @@
 import { useEffect, useState } from 'react';
 import useDescribers from '@/hooks/useDescribers';
 
-const isChrome = navigator?.userAgent.indexOf('Chrome') > -1;
-const isSafari = !isChrome && navigator?.userAgent.indexOf('Safari') > -1;
-
 export default function Describer() {
 	const [describer, setDescriber] = useState('');
 	const ud = useDescribers();
 
 	useEffect(() => {
 		setDescriber(ud.random());
+		const isChrome = navigator?.userAgent.indexOf('Chrome') > -1;
+		const isSafari = !isChrome && navigator?.userAgent.indexOf('Safari') > -1;
 		const interval = isSafari
 			? setInterval(() => {
 					const jhd = document.getElementById('jh_describer');
