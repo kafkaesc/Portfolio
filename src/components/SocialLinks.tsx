@@ -36,10 +36,11 @@ export default function SocialLinks() {
 						<a href={sl.url} rel="noreferrer" target="_blank">
 							<Image
 								alt={sl.alt}
-								className="w-6 h-6"
-								height={24}
+								height="0"
+								sizes="100vw"
 								src={sl.src}
-								width={24}
+								width="0"
+								className="block w-auto h-8"
 							/>
 						</a>
 					</li>
