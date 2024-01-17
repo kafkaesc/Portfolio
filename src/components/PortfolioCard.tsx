@@ -19,7 +19,7 @@ export default function PortfolioCard({
 	url,
 }: PortfolioCardProps) {
 	return (
-		<div className="p-2 text-left border border-2">
+		<div className="h-full p-2 text-left border border-2">
 			<A href={url} rel="noreferrer" target="_blank">
 				<div className="h-32 overflow-hidden border border-2">
 					{imgSrc && (

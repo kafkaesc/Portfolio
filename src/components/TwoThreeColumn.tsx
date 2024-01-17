@@ -1,14 +1,14 @@
 import { ReactNode } from 'react';
 
-interface TwoToThreeColumnProps {
+interface TwoThreeColumnProps {
 	children: ReactNode;
 	className?: string;
 }
 
-export default function TwoToThreeColumn({
+export default function TwoThreeColumn({
 	children,
 	className,
-}: TwoToThreeColumnProps) {
+}: TwoThreeColumnProps) {
 	return className ? (
 		<div className={`inline-block w-1/2 md:w-1/3 ${className}`}>{children}</div>
 	) : (
