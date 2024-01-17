@@ -25,7 +25,7 @@ export default function PortfolioCard({
 					{imgSrc && (
 						<Image
 							alt="Alt text, update this"
-							className="object-cover h-32 hover:animate-zoom-to-112"
+							className="object-cover h-32 transition duration-[400ms] hover:scale-110"
 							height={512}
 							src={imgSrc}
 							width={512}
