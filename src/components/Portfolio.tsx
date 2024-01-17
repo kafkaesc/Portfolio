@@ -1,5 +1,6 @@
 import PortfolioCard from '@/components/PortfolioCard';
-import TwoToThreeColumn from '@/components/TwoToThreeColumn';
+//import OneTwoThreeColumn from '@/components/OneTwoThreeColumn';
+import TwoThreeColumn from '@/components/TwoThreeColumn';
 
 const portfolioProjects = [
 	{
@@ -35,15 +36,15 @@ const portfolioProjects = [
 
 export default function Portfolio() {
 	return (
-		<>
+		<div className="flex flex-wrap items-stretch">
 			{portfolioProjects &&
 				portfolioProjects.map((pp) => {
 					return (
-						<TwoToThreeColumn key={pp.name} className="px-1 pb-1 align-top">
+						<TwoThreeColumn key={pp.name} className="px-1 pb-1 align-top">
 							<PortfolioCard {...pp} />
-						</TwoToThreeColumn>
+						</TwoThreeColumn>
 					);
 				})}
-		</>
+		</div>
 	);
 }
