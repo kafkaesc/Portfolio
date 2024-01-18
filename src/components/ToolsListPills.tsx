@@ -26,7 +26,7 @@ export default function ToolsListPills() {
 				return (
 					<li key={to.name} className="inline-block px-1 py-2">
 						<a
-							className="px-4 rounded py-2 bg-gray-200"
+							className="px-3 py-1 text-sm bg-gray-200 transition duration-[660ms] border border-gray-200 rounded-full hover:border-black hover:text-jh-white hover:bg-jh-black"
 							href={to.url}
 							rel="noreferrer"
 							target="_blank"
