@@ -5,6 +5,7 @@ import Hr from '@/elements/Hr';
 import Jhumbotron from '@/components/Jhumbotron';
 import Mentoring from '@/components/Mentoring';
 import Portfolio from '@/components/Portfolio';
+import Professional from '@/components/Professional';
 import SocialLinks from '@/components/SocialLinks';
 import ToolsListPills from '@/components/ToolsListPills';
 
@@ -29,27 +30,11 @@ export default function Home() {
 					<Portfolio />
 				</div>
 			</div>
-			{/*<div className="max-w-2xl px-2 mx-auto mb-4 md:px-0">
+			<div className="max-w-2xl px-2 mx-auto mb-4 md:px-0">
 				<H2>Professional Projects</H2>
 				<Hr className="mb-2" />
-				<ul className="list-disc text-jh-black">
-					<li>
-						Created customizable user reactions for enterprise-level live video
-						feeds with engagement statistics using custom APIs, vanilla
-						JavaScript, and ChartJS.
-					</li>
-					<li>
-						Created a manager portal, contractor portal, and consumer facing
-						website in Angular to automate the planning and execution of
-						hundreds of events annually.
-					</li>
-					<li>
-						Created a native Android app featuring news updates, event tracking,
-						and a co-worker directory for a major international law firm of over
-						2,000 lawyers.
-					</li>
-				</ul>
-			</div>*/}
+				<Professional />
+			</div>
 			<div className="max-w-2xl px-2 mx-auto mb-4 md:px-0">
 				<H2>Languages & Technologies</H2>
 				<Hr className="mb-2" />
