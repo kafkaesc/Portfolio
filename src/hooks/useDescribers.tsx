@@ -1,7 +1,7 @@
 const jhDescriptionList = [
 	'Dungeon Diver',
 	'Freckled Latino',
-	'Native Texan',
+	//'Native Texan',
 	'Pro-Tailwind Cyclist',
 	'Sci-fi Enthusiast',
 	'Tea Drinker',
