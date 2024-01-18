@@ -24,7 +24,7 @@ export default function ToolsListPills() {
 		<ul>
 			{tools.map((to) => {
 				return (
-					<li key={to.name} className="inline-block px-1 py-2">
+					<li key={to.name} className="inline-block px-1 py-1.5">
 						<a
 							className="px-3 py-1 text-sm bg-jh-pill transition duration-[660ms] border border-jh-pill rounded-full hover:border-jh-pill-highlight hover:text-jh-white hover:bg-jh-pill-highlight"
 							href={to.url}
