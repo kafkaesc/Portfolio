@@ -2,12 +2,12 @@ import { Metadata } from 'next';
 
 import H2 from '@/elements/H2';
 import Hr from '@/elements/Hr';
-import Jhumbotron from '@/components/Jhumbotron';
-import Mentoring from '@/components/Mentoring';
-import Portfolio from '@/components/Portfolio';
-import Professional from '@/components/Professional';
+import Jhumbotron from './components/Jhumbotron';
+import Mentoring from './components/Mentoring';
+import Portfolio from './components/Portfolio';
+import Professional from './components/Professional';
 import SocialLinks from '@/components/SocialLinks';
-import ToolsListPills from '@/components/ToolsListPills';
+import ToolsListPills from './components/ToolsListPills';
 
 export const metadata: Metadata = {
 	title: 'Jared Hettinger - Software Engineer',
