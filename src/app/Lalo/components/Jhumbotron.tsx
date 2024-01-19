@@ -1,4 +1,4 @@
-import JhumbotronHeadshot from '@/components/JhumbotronHeadshot';
+import JhumbotronHeadshot from './JhumbotronHeadshot';
 import Describer from '@/components/Describer';
 
 export default function Jhumbotron() {
