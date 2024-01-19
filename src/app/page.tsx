@@ -12,7 +12,32 @@ import ToolsListPills from '@/components/ToolsListPills';
 export const metadata: Metadata = {
 	title: 'Jared Hettinger - Software Engineer',
 	description:
-		"Hi there, I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects",
+		"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
+	openGraph: {
+		description:
+			"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
+		images: {
+			alt: 'A headshot of a tanned-skin man wearing glasses is to the right. To the left of his face is his name, Jared Hettinger, in bold white letters. Underneath his name it says Software Engineer in bright turquoise.',
+			height: 630,
+			url: 'www.jaredhettinger.io/ogp.png',
+			width: 1200,
+		},
+		title: 'Jared Hettinger - Software Engineer',
+		type: 'website',
+		url: 'www.jaredhettinger.io',
+	},
+	twitter: {
+		card: 'summary_large_image',
+		creator: '@_kafkaesc',
+		description:
+			"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
+		images: {
+			alt: 'A headshot of a tanned-skin man wearing glasses is to the right. To the left of his face is his name, Jared Hettinger, in bold white letters. Underneath his name it says Software Engineer in bright turquoise.',
+			url: 'www.jaredhettinger.io/twc.png',
+		},
+		site: '@_kafkaesc',
+		title: 'Jared Hettinger - Software Engineer',
+	},
 };
 
 export default function Home() {
