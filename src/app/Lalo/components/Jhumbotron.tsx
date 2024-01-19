@@ -1,5 +1,5 @@
 import JhumbotronHeadshot from './JhumbotronHeadshot';
-import Describer from '@/components/Describer';
+import Describer from './Describer';
 
 export default function Jhumbotron() {
 	return (
