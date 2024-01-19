@@ -12,6 +12,8 @@ const config: Config = {
 			colors: {
 				black: '#000000',
 				'jh-black': '#121212',
+				'jh-pill': '#e5e7eb',
+				'jh-pill-highlight': '#121212',
 				'jh-white': '#eeeeee',
 				highlight: '#3feee6',
 				white: '#ffffff',

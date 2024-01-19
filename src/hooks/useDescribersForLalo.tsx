@@ -1,20 +1,20 @@
-const jhDescriptionList = [
-	'Dungeon Diver',
-	'Freckled Latino',
+const laloDescriptionList = [
+	'Meow Meower',
+	'Meow Meowo',
 	//'Native Texan',
-	'Pro-Tailwind Cyclist',
-	'Sci-fi Enthusiast',
-	'Tea Drinker',
+	'Meow-Meow Meow',
+	'Meow-meow Meow',
+	'Meow Meower',
 ];
 
-export default function useDescribers() {
+export default function useDescribersForLalo() {
 	function all(): string[] {
-		return jhDescriptionList;
+		return laloDescriptionList;
 	}
 
 	function random(): string {
-		const randomIndex = Math.floor(Math.random() * jhDescriptionList.length);
-		return jhDescriptionList[randomIndex];
+		const randomIndex = Math.floor(Math.random() * laloDescriptionList.length);
+		return laloDescriptionList[randomIndex];
 	}
 
 	function semirandom(prev?: string): string {
