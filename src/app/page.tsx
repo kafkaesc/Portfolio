@@ -10,33 +10,33 @@ import SocialLinks from '@/components/SocialLinks';
 import ToolsListPills from '@/components/ToolsListPills';
 
 export const metadata: Metadata = {
-	title: 'Jared Hettinger - Software Engineer',
+	title: 'Lalo Meowinger - Meow Meow',
 	description:
-		"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
+		'Meow meow meow Lalo Meowinger meow meow meow meow meow meow meow. Meow meow meow meow meow meow meowing meow meow-meow, meow-meow, meow meow meows.',
 	openGraph: {
 		description:
-			"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
+			'Meow meow meow Lalo Meowinger meow meow meow meow meow meow meow. Meow meow meow meow meow meow meowing meow meow-meow, meow-meow, meow meow meows.',
 		images: {
-			alt: 'A headshot of a tanned-skin man wearing glasses is to the right. To the left of his face is his name, Jared Hettinger, in bold white letters. Underneath his name it says Software Engineer in bright turquoise.',
+			alt: 'A headshot of a black and white cat is to the right. To the left of his face is his name, Lalo Meowinger, in bold white letters. Underneath his name it says Meow Meow in bright turquoise.',
 			height: 630,
-			url: 'www.jaredhettinger.io/ogp.png',
+			url: 'www.jaredhettinger.io/lalo-ogp.png',
 			width: 1200,
 		},
-		title: 'Jared Hettinger - Software Engineer',
+		title: 'Lalo Meowinger - Meow Meow',
 		type: 'website',
-		url: 'www.jaredhettinger.io',
+		url: 'www.jaredhettinger.io/Lalo',
 	},
 	twitter: {
 		card: 'summary_large_image',
 		creator: '@_kafkaesc',
 		description:
-			"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
+			'Meow meow meow Lalo Meowinger meow meow meow meow meow meow meow. Meow meow meow meow meow meow meowing meow meow-meow, meow-meow, meow meow meows.',
 		images: {
-			alt: 'A headshot of a tanned-skin man wearing glasses is to the right. To the left of his face is his name, Jared Hettinger, in bold white letters. Underneath his name it says Software Engineer in bright turquoise.',
-			url: 'www.jaredhettinger.io/twc.png',
+			alt: 'A headshot of a black and white cat is to the right. To the left of his face is his name, Lalo Meowinger, in bold white letters. Underneath his name it says Meow Meow in bright turquoise.',
+			url: 'www.jaredhettinger.io/lalo-twc.png',
 		},
 		site: '@_kafkaesc',
-		title: 'Jared Hettinger - Software Engineer',
+		title: 'Lalo Meowinger - Meow Meow',
 	},
 };
 

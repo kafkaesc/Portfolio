@@ -17,7 +17,7 @@ const portfolioProjects = [
 		imgAlt:
 			'A cat sits at the edge of a porch beneath a black night sky. Their fur is mostly white with some black spots down the back. The cat has their back to the camera, but their head is turned to face backward. Next to the cat and against the night sky are the words Cat Summoner in white lettering.',
 		imgSrc: '/images/portfolio/catsummoner.png',
-		name: 'Cat Summoner',
+		name: 'Meow Meower',
 		repoUrl: 'https://github.com/kafkaesc/Cat-Summoner',
 		url: 'https://www.cat-summoner.com',
 	},
@@ -26,7 +26,7 @@ const portfolioProjects = [
 		imgAlt:
 			'A black shield with the white silhouette of a telephone receiver sits in the middle of a denim background',
 		imgSrc: '/images/portfolio/callmeishmael.png',
-		name: 'Call-Me-Ishmael',
+		name: 'Meow-Mew-Meow',
 		repoUrl: 'https://github.com/kafkaesc/Call-Me-Ishmael',
 		url: 'https://www.call-me-ishmael.xyz/',
 	},
