@@ -2,6 +2,12 @@
 
 Built by Jared Hettinger
 
+This project is my portfolio. It is built using React, Next, and Tailwind. It's hosted on Amazon Web Services.
+
+The portfolio is hosted at https://jaredhettinger.io
+
+The full code for this project can be viewed at https://github.com/kafkaesc/Portfolio
+
 ## Initial Run
 
 1. Navigate to the project folder in the terminal

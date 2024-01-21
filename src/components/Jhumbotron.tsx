@@ -19,7 +19,7 @@ export default function Jhumbotron() {
 					</div>
 					<div className="w-full mx-1 sm:w-2/3 sm:mx-auto md:mx-0 md:w-1/2">
 						<p className="font-normal">
-							{`Hi there, I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects`}
+							{`Hi there, I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.`}
 						</p>
 					</div>
 				</div>
