@@ -19,12 +19,12 @@ export const metadata: Metadata = {
 		images: {
 			alt: 'A headshot of a black and white cat is to the right. To the left of his face is his name, Lalo Meowinger, in bold white letters. Underneath his name it says Meow Meow in bright turquoise.',
 			height: 630,
-			url: 'www.jaredhettinger.io/lalo-ogp.png',
+			url: 'https://www.jaredhettinger.io/lalo-ogp.png',
 			width: 1200,
 		},
 		title: 'Lalo Meowinger - Meow Meow',
 		type: 'website',
-		url: 'www.jaredhettinger.io/Lalo',
+		url: 'https://www.jaredhettinger.io/Lalo',
 	},
 	twitter: {
 		card: 'summary_large_image',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 			'Meow meow meow Lalo Meowinger meow meow meow meow meow meow meow. Meow meow meow meow meow meow meowing meow meow-meow, meow-meow, meow meow meows.',
 		images: {
 			alt: 'A headshot of a black and white cat is to the right. To the left of his face is his name, Lalo Meowinger, in bold white letters. Underneath his name it says Meow Meow in bright turquoise.',
-			url: 'www.jaredhettinger.io/lalo-twc.png',
+			url: 'https://www.jaredhettinger.io/lalo-twc.png',
 		},
 		site: '@_kafkaesc',
 		title: 'Lalo Meowinger - Meow Meow',
