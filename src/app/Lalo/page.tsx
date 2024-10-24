@@ -10,7 +10,7 @@ import SocialLinks from '@/components/SocialLinks';
 import ToolsListPills from './components/ToolsListPills';
 
 export const metadata: Metadata = {
-	title: 'Lalo Meowinger - Meow Meow',
+	title: 'Lalo Meowinger - Meow Meow Meow Meow',
 	description:
 		'Meow meow meow Lalo Meowinger meow meow meow meow meow meow meow. Meow meow meow meow meow meow meowing meow meow-meow, meow-meow, meow meow meows.',
 	openGraph: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 			url: 'https://www.jaredhettinger.io/lalo-ogp.png',
 			width: 1200,
 		},
-		title: 'Lalo Meowinger - Meow Meow',
+		title: 'Lalo Meowinger - Meow Meow Meow Meow',
 		type: 'website',
 		url: 'https://www.jaredhettinger.io/Lalo',
 	},
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 			url: 'https://www.jaredhettinger.io/lalo-twc.png',
 		},
 		site: '@_kafkaesc',
-		title: 'Lalo Meowinger - Meow Meow',
+		title: 'Lalo Meowinger - Meow Meow Meow Meow',
 	},
 };
 
