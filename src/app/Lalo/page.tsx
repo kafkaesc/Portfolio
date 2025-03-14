@@ -10,6 +10,7 @@ import SocialLinks from '@/components/SocialLinks';
 import ToolsListPills from './components/ToolsListPills';
 
 export const metadata: Metadata = {
+	metadataBase: new URL('http://jaredhettinger.io'),
 	title: 'Lalo Meowinger - Meow Meow Meow Meow',
 	description:
 		'Meow meow meow Lalo Meowinger meow meow meow meow meow meow meow. Meow meow meow meow meow meow meowing meow meow-meow, meow-meow, meow meow meows.',

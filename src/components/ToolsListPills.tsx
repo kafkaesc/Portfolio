@@ -4,19 +4,21 @@ const tools = [
 		name: 'JavaScript',
 		url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
 	},
+	{ name: 'Go', url: 'https://go.dev' },
 	{ name: 'HTML', url: 'https://html.spec.whatwg.org' },
 	{ name: 'CSS', url: 'https://www.w3.org/TR/CSS' },
 	{ name: 'React', url: 'https://react.dev' },
 	{ name: 'Next', url: 'https://nextjs.org' },
-	{ name: 'Remix', url: 'https://remix.run' },
 	{ name: 'SQL', url: 'https://www.microsoft.com/en-us/sql-server' },
 	{ name: 'Git', url: 'https://git-scm.com' },
-	{ name: 'Angular', url: 'https://angular.io' },
 	{ name: 'Node', url: 'https://nodejs.org' },
 	{ name: 'Express', url: 'https://expressjs.com' },
 	{ name: 'Tailwind', url: 'https://tailwindcss.com' },
 	{ name: 'JSDoc', url: 'https://jsdoc.app' },
 	{ name: 'Jest', url: 'https://jestjs.io' },
+	{ name: 'Testify', url: 'https://github.com/stretchr/testify' },
+	{ name: 'Postman', url: 'https://www.postman.com' },
+	{ name: 'Mockoon', url: 'https://mockoon.com' },
 ];
 
 export default function ToolsListPills() {

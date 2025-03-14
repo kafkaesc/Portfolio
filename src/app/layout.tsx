@@ -5,6 +5,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('http://jaredhettinger.io'),
 	title: 'Jared Hettinger - Software Engineer',
 	description: 'Jared Hettinger is a software engineer based in Texas',
 };

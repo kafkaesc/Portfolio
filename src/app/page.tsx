@@ -10,6 +10,7 @@ import SocialLinks from '@/components/SocialLinks';
 import ToolsListPills from '@/components/ToolsListPills';
 
 export const metadata: Metadata = {
+	metadataBase: new URL('http://jaredhettinger.io'),
 	title: 'Jared Hettinger - Software Engineer',
 	description:
 		"My name is Jared Hettinger and I'm a software engineer in Texas. I'm a versatile developer with experience working on front-end, back-end, and mobile projects.",
