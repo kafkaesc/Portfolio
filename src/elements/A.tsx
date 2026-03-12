@@ -1,12 +1,10 @@
+import clsx from 'clsx';
+
 interface AProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {}
 
 export default function A({ children, className, ...props }: AProps) {
-	return className ? (
-		<a {...props} className={`text-blue-700 hover:underline ${className}`}>
-			{children}
-		</a>
-	) : (
-		<a {...props} className="text-blue-700 hover:underline">
+	return (
+		<a {...props} className={clsx('text-blue-700 hover:underline', className)}>
 			{children}
 		</a>
 	);
