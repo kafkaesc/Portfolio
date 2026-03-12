@@ -1,10 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import useDescribers from '@/hooks/useDescribers';
 
 export default function Describer() {
 	const [describer, setDescriber] = useState('');
+	const ref = useRef<HTMLSpanElement>(null);
 	const ud = useDescribers();
 
 	useEffect(() => {
@@ -13,26 +14,22 @@ export default function Describer() {
 		const isSafari = !isChrome && navigator?.userAgent.indexOf('Safari') > -1;
 		const interval = isSafari
 			? setInterval(() => {
-					const jhd = document.getElementById('jh_describer');
 					setDescriber((prev) => {
-						jhd!.classList.add('animate-describer-slide-in');
+						ref.current?.classList.add('animate-describer-slide-in');
 						return ud.semirandom(prev);
 					});
-					jhd!.classList.remove('animate-describer-slide-in');
-			  }, 5000)
+					ref.current?.classList.remove('animate-describer-slide-in');
+				}, 5000)
 			: setInterval(() => {
 					setDescriber((prev) => ud.semirandom(prev));
-			  }, 5000);
+				}, 5000);
 
 		return () => clearInterval(interval);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	return (
-		<span
-			id="jh_describer"
-			className="inline-block pr-2 animate-describer-slide-in"
-		>
+		<span ref={ref} className="inline-block pr-2 animate-describer-slide-in">
 			{describer}
 		</span>
 	);
