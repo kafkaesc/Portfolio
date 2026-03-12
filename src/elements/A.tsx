@@ -1,10 +1,4 @@
-import { ReactNode } from 'react';
-
-interface AProps {
-	children: ReactNode;
-	className?: string;
-	[props: string]: any;
-}
+interface AProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {}
 
 export default function A({ children, className, ...props }: AProps) {
 	return className ? (

@@ -1,6 +1,4 @@
-interface HrProps {
-	className?: string;
-}
+interface HrProps extends React.HTMLAttributes<HTMLHRElement> {}
 
 export default function Hr({ className }: HrProps) {
 	return className ? (

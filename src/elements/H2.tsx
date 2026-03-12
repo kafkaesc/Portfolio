@@ -1,9 +1,4 @@
-import { ReactNode } from 'react';
-
-interface H2Props {
-	children: ReactNode;
-	className?: string;
-}
+interface H2Props extends React.HTMLAttributes<HTMLHeadingElement> {}
 
 export default function H2({ children, className }: H2Props) {
 	return className ? (
