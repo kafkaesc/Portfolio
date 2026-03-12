@@ -15,7 +15,7 @@ export default function Jhumbotron() {
 						<Describer />
 					</p>
 					<div className="w-2/3 mx-auto md:mx-0 md:w-1/2">
-						<hr className="my-4 border border-2" />
+						<hr className="my-4 border-2" />
 					</div>
 					<div className="w-full mx-1 sm:w-2/3 sm:mx-auto md:mx-0 md:w-1/2">
 						<p className="font-normal">

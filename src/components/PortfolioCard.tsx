@@ -13,18 +13,24 @@ interface PortfolioCardProps {
 
 export default function PortfolioCard({
 	description,
+	imgAlt,
 	imgSrc,
 	name,
 	repoUrl,
 	url,
 }: PortfolioCardProps) {
+	if (imgSrc && !imgAlt) {
+		console.warn(
+			`PortfolioCard for ${imgSrc} is missing an alt tag for its image. Please add one for accessibility.`,
+		);
+	}
 	return (
-		<div className="h-full p-2 text-left border border-2">
+		<div className="h-full p-2 text-left border-2">
 			<A href={url} rel="noreferrer" target="_blank">
-				<div className="h-32 overflow-hidden border border-2">
+				<div className="h-32 overflow-hidden border-2">
 					{imgSrc && (
 						<Image
-							alt="Alt text, update this"
+							alt={imgAlt}
 							className="object-cover h-32 transition duration-[400ms] hover:scale-110"
 							height={512}
 							src={imgSrc}
@@ -36,9 +42,13 @@ export default function PortfolioCard({
 			<div className="flex">
 				<div className="flex-auto">
 					<h3 className="text-xl font-bold">
-						<A href={url} rel="noreferrer" target="_blank">
-							{name}
-						</A>
+						{url ? (
+							<A href={url} rel="noreferrer" target="_blank">
+								{name}
+							</A>
+						) : (
+							<>{name}</>
+						)}
 					</h3>
 				</div>
 				<div className="flex-none">
