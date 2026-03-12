@@ -12,17 +12,20 @@ export default function Describer() {
 		setDescriber(ud.random());
 		const isChrome = navigator?.userAgent.indexOf('Chrome') > -1;
 		const isSafari = !isChrome && navigator?.userAgent.indexOf('Safari') > -1;
-		const interval = isSafari
-			? setInterval(() => {
-					setDescriber((prev) => {
-						ref.current?.classList.add('animate-describer-slide-in');
-						return ud.semirandom(prev);
-					});
-					ref.current?.classList.remove('animate-describer-slide-in');
-				}, 5000)
-			: setInterval(() => {
-					setDescriber((prev) => ud.semirandom(prev));
-				}, 5000);
+
+		const rotateSafari = () => {
+			setDescriber((prev) => {
+				ref.current?.classList.add('animate-describer-slide-in');
+				return ud.semirandom(prev);
+			});
+			ref.current?.classList.remove('animate-describer-slide-in');
+		};
+
+		const rotate = () => {
+			setDescriber((prev) => ud.semirandom(prev));
+		};
+
+		const interval = setInterval(isSafari ? rotateSafari : rotate, 5000);
 
 		return () => clearInterval(interval);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
