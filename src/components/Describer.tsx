@@ -10,29 +10,24 @@ export default function Describer() {
 
 	useEffect(() => {
 		setDescriber(ud.random());
-		const isChrome = navigator?.userAgent.indexOf('Chrome') > -1;
-		const isSafari = !isChrome && navigator?.userAgent.indexOf('Safari') > -1;
-
-		const rotateSafari = () => {
-			setDescriber((prev) => {
-				ref.current?.classList.add('animate-describer-slide-in');
-				return ud.semirandom(prev);
-			});
-			ref.current?.classList.remove('animate-describer-slide-in');
-		};
-
-		const rotate = () => {
+		const interval = setInterval(() => {
 			setDescriber((prev) => ud.semirandom(prev));
-		};
-
-		const interval = setInterval(isSafari ? rotateSafari : rotate, 5000);
-
+		}, 5000);
 		return () => clearInterval(interval);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
+	useEffect(() => {
+		if (!ref.current) return;
+
+		const el = ref.current;
+		el.classList.remove('animate-describer-slide-in');
+		void el.offsetWidth;
+		el.classList.add('animate-describer-slide-in');
+	}, [describer]);
+
 	return (
-		<span ref={ref} className="inline-block pr-2 animate-describer-slide-in">
+		<span ref={ref} className="inline-block pr-2">
 			{describer}
 		</span>
 	);
