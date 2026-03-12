@@ -1,5 +1,4 @@
 import PortfolioCard from '@/components/PortfolioCard';
-//import OneTwoThreeColumn from '@/components/OneTwoThreeColumn';
 import TwoThreeColumn from '@/components/TwoThreeColumn';
 
 const portfolioProjects = [
