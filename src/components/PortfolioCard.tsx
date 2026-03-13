@@ -19,11 +19,6 @@ export default function PortfolioCard({
 	repoUrl,
 	url,
 }: PortfolioCardProps) {
-	if (imgSrc && !imgAlt) {
-		console.warn(
-			`PortfolioCard for ${imgSrc} is missing an alt tag for its image. Please add one for accessibility.`,
-		);
-	}
 	return (
 		<div className="h-full p-2 text-left border-2">
 			<A href={url} rel="noreferrer" target="_blank">
