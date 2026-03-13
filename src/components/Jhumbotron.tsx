@@ -8,9 +8,9 @@ export default function Jhumbotron() {
 				<JhumbotronHeadshot />
 				<div className="font-black text-center text-jh-white md:text-left md:pl-8 md:pt-16">
 					<h1 className="mb-1 text-5xl sm:text-6xl">Jared Hettinger</h1>
-					<h2 className="mb-1 text-3xl text-highlight sm:text-4xl">
+					<p className="mb-1 text-3xl text-highlight sm:text-4xl">
 						Software Engineer
-					</h2>
+					</p>
 					<p className="mb-1 text-xl italic font-extrabold sm:text-2xl">
 						<Describer />
 					</p>

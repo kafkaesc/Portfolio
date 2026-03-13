@@ -1,12 +1,12 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import useDescribersForLalo from '@/hooks/useDescribersForLalo';
+import useDescribers from '@/hooks/useDescribers';
 
 export default function Describer() {
 	const [describer, setDescriber] = useState('');
 	const ref = useRef<HTMLSpanElement>(null);
-	const ud = useDescribersForLalo();
+	const ud = useDescribers('Lalo');
 
 	useEffect(() => {
 		setDescriber(ud.random());
