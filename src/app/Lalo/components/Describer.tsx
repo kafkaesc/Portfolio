@@ -10,6 +10,9 @@ export default function Describer() {
 
 	useEffect(() => {
 		setDescriber(ud.random());
+
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
 		const interval = setInterval(() => {
 			setDescriber((prev) => ud.semirandom(prev));
 		}, 5000);
@@ -19,6 +22,9 @@ export default function Describer() {
 
 	useEffect(() => {
 		if (!ref.current) return;
+
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
 		const el = ref.current;
 		el.classList.remove('animate-describer-slide-in');
 		void el.offsetWidth;
