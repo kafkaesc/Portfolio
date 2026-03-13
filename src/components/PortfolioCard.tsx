@@ -28,6 +28,7 @@ export default function PortfolioCard({
 							alt={imgAlt}
 							className="object-cover h-32 transition duration-[400ms] hover:scale-110"
 							height={512}
+							sizes="(max-width: 768px) 50vw, 33vw"
 							src={imgSrc}
 							width={512}
 						/>

@@ -6,20 +6,33 @@ const jhDescriptionList = [
 	'Tea Drinker',
 ];
 
-export default function useDescribers() {
+const laloDescriptionList = [
+	'Meow Meower',
+	'Meow Meowo',
+	'Meow-Meow Meow',
+	'Meow-meow Meow',
+	'Meow mew Meower',
+];
+
+export default function useDescribers(arg?: 'Lalo') {
+	const list =
+		arg?.toLocaleLowerCase() === 'lalo'
+			? laloDescriptionList
+			: jhDescriptionList;
+
 	function all(): string[] {
-		return jhDescriptionList;
+		return list;
 	}
 
 	function random(): string {
-		if (jhDescriptionList.length === 1) return jhDescriptionList[0];
+		if (list.length === 1) return list[0];
 
-		const randomIndex = Math.floor(Math.random() * jhDescriptionList.length);
-		return jhDescriptionList[randomIndex];
+		const randomIndex = Math.floor(Math.random() * list.length);
+		return list[randomIndex];
 	}
 
 	function semirandom(prev?: string): string {
-		if (jhDescriptionList.length === 1) return jhDescriptionList[0];
+		if (list.length === 1) return list[0];
 
 		if (!prev) return random();
 

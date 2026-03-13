@@ -10,6 +10,7 @@ export default function Mentoring() {
 						alt="An orange block letter combination of UD, the negative space between the U and D forms a silhouette of a dog looking rightward."
 						className="w-20 h-20 mr-4 sm:w-32 sm:h-32"
 						height={128}
+						sizes="(max-width: 640px) 80px, 128px"
 						src="/images/underdogdevs.png"
 						width={128}
 					/>
