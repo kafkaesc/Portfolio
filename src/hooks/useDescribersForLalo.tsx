@@ -1,10 +1,9 @@
 const laloDescriptionList = [
 	'Meow Meower',
 	'Meow Meowo',
-	//'Native Texan',
 	'Meow-Meow Meow',
 	'Meow-meow Meow',
-	'Meow Meower',
+	'Meow mew Meower',
 ];
 
 export default function useDescribersForLalo() {
@@ -13,15 +12,19 @@ export default function useDescribersForLalo() {
 	}
 
 	function random(): string {
+		if (laloDescriptionList.length === 1) return laloDescriptionList[0];
+
 		const randomIndex = Math.floor(Math.random() * laloDescriptionList.length);
 		return laloDescriptionList[randomIndex];
 	}
 
 	function semirandom(prev?: string): string {
+		if (laloDescriptionList.length === 1) return laloDescriptionList[0];
+
 		if (!prev) return random();
 
 		let nextDescriber = random();
-		while (nextDescriber.toLocaleLowerCase() === prev.toLocaleLowerCase()) {
+		while (nextDescriber === prev) {
 			nextDescriber = random();
 		}
 		return nextDescriber;
