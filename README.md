@@ -2,11 +2,11 @@
 
 Built by Jared Hettinger
 
-This project is the portfolio site for Jared Hettinger, a full-stack software engineer. It's a single page site that provides details about technical expertise and links to other projects. It's a Next project hosted on AWS Amplify.
+This project is the portfolio site for Jared Hettinger, a full-stack software engineer. It's a single page site that provides details about professional experience, technical skills, and other projects. The site is a Next project hosted on AWS Amplify.
 
 The portfolio is hosted at https://jaredhettinger.io
 
-The full code for this project can be viewed at https://github.com/kafkaesc/Portfolio
+The full code for this project is hosted at https://github.com/kafkaesc/Portfolio
 
 ## 📋 Prerequisites
 
@@ -15,16 +15,16 @@ The full code for this project can be viewed at https://github.com/kafkaesc/Port
 
 ## 📦 Installation & Operation
 
-After first downloading this project run `pnpm install` to install the node modules.
+After first downloading this project, run `pnpm install` to install the node modules.
 
-Once the project is installed, running it is two steps:
+Once the project is installed, running it just takes two steps:
 1. Run `pnpm dev`
 1. Open [http://localhost:3000](http://localhost:3000) in your browser of choice
 
 ## 🛠️ Tech Stack
 
 - Next 16
-- TypeScript
+- TypeScript 5
 - React 19
 - Tailwind 3
 
@@ -32,6 +32,10 @@ Once the project is installed, running it is two steps:
 
 This project uses Jest for unit testing.
 
-- `pnpm test` - Runs tests and displays the pass/fail for the project
+- `pnpm test` - Runs tests and displays the test names and pass/fail results
 - `pnpm test:coverage` - Runs tests and displays coverage across the project
 - `pnpm test:watch` - Runs tests in watch mode, re-running affected tests automatically as files change
+
+## ⚖️ License
+
+© 2025 Jared Hettinger. All rights reserved.
