@@ -7,11 +7,17 @@ const config: Config = {
 	coverageProvider: 'v8',
 	testEnvironment: 'jsdom',
 	setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-	collectCoverageFrom: ['src/**/*.{ts,tsx}', '!src/**/*.d.ts', '!src/app/Lalo/**'],
+	collectCoverageFrom: [
+		'src/**/*.{ts,tsx}',
+		'!src/**/*.d.ts',
+		'!src/app/Lalo/**',
+	],
 	coverageThreshold: {
 		global: {
-			// TODO: Set to 0 until tests are set up
-			lines: 0,
+			lines: 80,
+			statements: 80,
+			functions: 80,
+			branches: 80,
 		},
 	},
 };
