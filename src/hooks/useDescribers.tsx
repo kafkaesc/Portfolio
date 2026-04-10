@@ -14,24 +14,28 @@ const laloDescriptionList = [
 	'Meow mew Meower',
 ];
 
+/** The useDescribers hook provides function to get description strings from a predefined list */
 export default function useDescribers(arg?: 'Lalo') {
 	const list =
 		arg?.toLocaleLowerCase() === 'lalo'
 			? laloDescriptionList
 			: jhDescriptionList;
 
-	function all(): string[] {
+	/** Return all descriptions from the list */
+	function all() {
 		return list;
 	}
 
-	function random(): string {
+	/** Return a random description from the list */
+	function random() {
 		if (list.length === 1) return list[0];
 
 		const randomIndex = Math.floor(Math.random() * list.length);
 		return list[randomIndex];
 	}
 
-	function semirandom(prev?: string): string {
+	/** Returns an item from the list other than the prev string provided */
+	function semirandom(prev?: string) {
 		if (list.length === 1) return list[0];
 
 		if (!prev) return random();

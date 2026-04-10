@@ -36,14 +36,13 @@ const portfolioProjects = [
 export default function Portfolio() {
 	return (
 		<div className="flex flex-wrap items-stretch">
-			{portfolioProjects &&
-				portfolioProjects.map((pp) => {
-					return (
-						<TwoThreeColumn key={pp.name} className="px-1 pb-1 align-top">
-							<PortfolioCard {...pp} />
-						</TwoThreeColumn>
-					);
-				})}
+			{portfolioProjects.map((pp) => {
+				return (
+					<TwoThreeColumn key={pp.name} className="px-1 pb-1 align-top">
+						<PortfolioCard {...pp} />
+					</TwoThreeColumn>
+				);
+			})}
 		</div>
 	);
 }
