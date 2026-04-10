@@ -2,6 +2,11 @@
 
 Built by Jared Hettinger
 
+![Tests](https://github.com/kafkaesc/portfolio/actions/workflows/test.yml/badge.svg)
+[![Coverage](https://codecov.io/gh/kafkaesc/portfolio/branch/main/graph/badge.svg)](https://codecov.io/gh/kafkaesc/portfolio)
+![Lint](https://github.com/kafkaesc/portfolio/actions/workflows/lint.yml/badge.svg)
+![Typecheck](https://github.com/kafkaesc/portfolio/actions/workflows/typecheck.yml/badge.svg)
+
 This project is the portfolio site for Jared Hettinger, a full-stack software engineer. It's a single page site that provides details about professional experience, technical skills, and other projects. The site is a Next project hosted on AWS Amplify.
 
 The portfolio is hosted at [https://www.jaredhettinger.io](https://jaredhettinger.io)
