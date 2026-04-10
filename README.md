@@ -4,9 +4,9 @@ Built by Jared Hettinger
 
 This project is the portfolio site for Jared Hettinger, a full-stack software engineer. It's a single page site that provides details about professional experience, technical skills, and other projects. The site is a Next project hosted on AWS Amplify.
 
-The portfolio is hosted at https://jaredhettinger.io
+The portfolio is hosted at [https://www.jaredhettinger.io](https://jaredhettinger.io)
 
-The full code for this project is hosted at https://github.com/kafkaesc/Portfolio
+The full code for this project is hosted at [https://www.github.com/kafkaesc/Portfolio](https://github.com/kafkaesc/Portfolio)
 
 ## 📋 Prerequisites
 
