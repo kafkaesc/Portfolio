@@ -9,14 +9,14 @@ Built by Jared Hettinger
 
 This project is the portfolio site for Jared Hettinger, a full-stack software engineer. It's a single page site that provides details about professional experience, technical skills, and other projects. The site is a Next project hosted on AWS Amplify.
 
-The portfolio is hosted at [https://www.jaredhettinger.io](https://jaredhettinger.io)
+The portfolio is hosted at [https://www.jaredhettinger.io](https://www.jaredhettinger.io)
 
-The full code for this project is hosted at [https://www.github.com/kafkaesc/Portfolio](https://github.com/kafkaesc/Portfolio)
+The full code for this project is hosted at [https://www.github.com/kafkaesc/portfolio](https://www.github.com/kafkaesc/portfolio)
 
 ## 📋 Prerequisites
 
-- Node 20+
-- pnpm
+- [Node 22+](https://nodejs.org)
+- [pnpm](https://pnpm.io)
 
 ## 📦 Installation & Operation
 
@@ -28,10 +28,10 @@ Once the project is installed, running it just takes two steps:
 
 ## 🛠️ Tech Stack
 
-- Next 16
-- TypeScript 5
-- React 19
-- Tailwind 3
+- [Next 16](https://nextjs.org)
+- [TypeScript 5](https://www.typescriptlang.org)
+- [React 19](https://react.dev)
+- [Tailwind 3](https://v3.tailwindcss.com)
 
 ## 🎯 Testing
 
